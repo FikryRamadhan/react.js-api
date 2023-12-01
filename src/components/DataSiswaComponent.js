@@ -7,15 +7,15 @@ const DataSiswaComponent = (
     { data, hapusData, modalShow},
 ) => {
     const guru = (data) => {
-        if (data.teacher_id == 1) {
+        if (data.teacher_id === 1) {
             return (
                 <strong>Nama Guru:  Junedi S.Kom</strong>
             )
-        } else if (data.teacher_id == 2) {
+        } else if (data.teacher_id === 2) {
             return (
                 <strong>Nama Guru:  Ilham S.Kom</strong>
             )
-        } else if (data.teacher_id == 3) {
+        } else if (data.teacher_id === 3) {
             return (
                 <strong>Nama Guru:   Ajun S.Kom</strong>
             )
