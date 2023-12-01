@@ -1,0 +1,1 @@
+export const API_URL = "http://api-test.klabbelanja.id/api/v1/test/";

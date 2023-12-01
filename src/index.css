@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: 'Public Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar{
+  background-color: rgb(127, 150, 224);
+}
+
+.border{
+  border: solid black;
+  border-right: 2px;
+  height: 805px;
+  margin-top: -50px;
+  box-shadow: inset;
+}
+
+.img{
+  width: 20px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
